@@ -60,6 +60,7 @@ const Certificate = ({
                     </div>
                 </div>
             </div>
+            <br />
             <button onClick={handleDownloadImage}>Download as Image</button>
         </div>
     );
