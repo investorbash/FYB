@@ -58,7 +58,7 @@ const CertificateForm = () => {
                 </div>
                 <br />
                 <div>
-                    <label>Social Media Handle: </label>
+                    <label>Snap Handle(s): </label>
                     <input type="text" name="socialMediaHandle" value={formData.socialMediaHandle} onChange={handleChange} required />
                 </div>
                 <br />
