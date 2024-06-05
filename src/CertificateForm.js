@@ -121,6 +121,7 @@ const CertificateForm = () => {
                     <label>User Image: </label>
                     <input type="file" accept="image/*" onChange={handleImageUpload} required />
                 </div>
+                <br />
                 {/* <button type="submit">Generate Certificate</button> */}
             </form>
 

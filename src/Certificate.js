@@ -33,16 +33,23 @@ const Certificate = ({
     };
 
     return (
-        <div>
-            <div className='container' ref={certificateRef} style={{ padding: '20px', border: '1px solid #000', textAlign: 'center', backgroundColor:  bestColor ||'yellow' }}>
+        <div className='container'>
+            
+            {/* ________ */}
+
+            <div className='box' ref={certificateRef} style={{ backgroundColor: bestColor || 'yellow', textAlign: 'center', border: '1px solid #000' }} >
                 <h1>FINAL YEAR BRETHREN</h1>
-                <h3>PERSONALTY OF THE DAY</h3>
-                <div className='row'>
-                    <div className="col-sm-6 col-md-6 w-50 h-50" >
-                        <img src={user_image} alt="User"  style={{ width: '100%', height: '100%', borderRadius: '5%'}} />  
-                        {/* style={{ width: '150px', height: '150px', borderRadius: '50%' }} */}
+                <h3 style={{fontFamily: 'Satisfy', fontWeight: '400', fontStyle: 'normal',}}>PERSONALTY OF THE DAY</h3>
+                <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%', padding: '20px', backgroundColor:  bestColor ||'yellow', textAlign: 'center'}}>
+                    <div className='content' style={{ flex: '1 1 45%'}} >
+                        <div>
+                            <img src={user_image} alt="User"  style={{ width: '100%', height: '100%', borderRadius: '5%'}} />  
+                            <br />
+                            <hr />
+                            <h1 style={{fontFamily: 'LXGW WenKai Mono TC', fontWeight: '400', fontStyle: 'normal',}}>CLASS '24</h1>
+                        </div>
                     </div>
-                    <div className="col-sm-6 col-md-6">
+                    <div className='content' style={{ flex: '1 1 45%'}} >
                         <p style={{fontWeight: '1.2em',}}><strong>Nickname:</strong> {nickname}</p>
                         <p style={{fontWeight: '1.2em',}}><strong>Snap Handle(s):</strong> {socialMediaHandle}</p>
                         <p style={{fontWeight: '1.2em',}}><strong>Date of Birth:</strong> {dob}</p>
