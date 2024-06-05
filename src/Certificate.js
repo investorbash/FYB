@@ -44,7 +44,7 @@ const Certificate = ({
                     </div>
                     <div className="col-sm-6 col-md-6">
                         <p style={{fontWeight: '1.2em',}}><strong>Nickname:</strong> {nickname}</p>
-                        <p style={{fontWeight: '1.2em',}}><strong>Social Media Handle:</strong> {socialMediaHandle}</p>
+                        <p style={{fontWeight: '1.2em',}}><strong>Snap Handle(s):</strong> {socialMediaHandle}</p>
                         <p style={{fontWeight: '1.2em',}}><strong>Date of Birth:</strong> {dob}</p>
                         <p style={{fontWeight: '1.2em',}}><strong>Relationship Status:</strong> {relationshipStatus}</p>
                         <p style={{fontWeight: '1.2em',}}><strong>State of Origin:</strong> {stateOfOrigin}</p>
